@@ -1,0 +1,32 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+.title {
+    background-color: lightgray;
+    text-transform: uppercase;
+    text-align: center;
+    color: #005677;
+    font-feature-settings: "cpsp";
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 1pt;
+    word-spacing: 10pt;
+}
+.subtitles {
+    background-color: lightgray;
+    text-transform: uppercase;
+    color: #005677;
+    font-feature-settings: "cpsp";
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1pt;
+    word-spacing: 6pt;
+}
+ul span {
+    font-size: 15px;
+}
+.footer {
+    background-color:#005677;
+    color: white;
+    font-size: 20px;
+}
