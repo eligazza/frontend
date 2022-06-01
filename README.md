@@ -1,3 +1,2 @@
-# intro-practice
-Repositorio de práctica para la materia Introducción a la Informática de la carrera Certified Tech Developer
-Este es un archivo README de prueba para que el repositorio no esté vacío. La idea es poder clonarlo en una carpeta local.
+# frontend
+Esta será mi mochila de la materia Front End de la carrera Certified Tech Developer. Acá voy a ir subiendo mis tareas y actividades de las diferentes clases.
