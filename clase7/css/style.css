@@ -1,6 +1,15 @@
 * {
     font-family:'Times New Roman', Times, serif;
 }
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
 .title {
     background-color: lightgray;
     text-transform: uppercase;
@@ -24,6 +33,7 @@
 }
 ul span {
     font-size: 15px;
+    font-weight: bold;
 }
 .footer {
     background-color:#005677;
