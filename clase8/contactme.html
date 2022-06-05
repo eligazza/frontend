@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Elías Gazza</title>
+    <title>Contact Elías</title>
     <!-- Recursos externos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +12,26 @@
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header>
         <img src="./img/elias.png" width="250" height="250" alt="Foto de perfil de Elias">
         <span>Lic Genética | Tech Developer</span>
         <h1>Elías Gazza</h1>
+        <a class="boton" href="./index.html">Inicio</a></button>
+        <a class="boton" href="./contactme.html">Contactame</a></button>
     </header>
     <main>
-        <section title="Profile">
-            <p>Me considero un eterno estudiante. Amo aprender y colaborar. Me tomo mis responsabilidades y proyectos muy en serio. Busco hacer el mejor trabajo posible y me gusta trabajar con mis clientes para que tengan lo que necesitaban, que les guste y se hayan sentido parte del proyeecto. Tengo un background muy diverso, podríamos conversarlo café por medio, y eso me ayuda a ser más contemplativo y encarar los proyectos con una mente abierta.</p>
-        </section>
-        <a class="boton" href="./aboutme.html">Sobre mi</a></button>
-        <a class="boton" href="./contactme.html">Contactame</a></button>
+        <form action="/action_page.php">
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Mensaje:</label><br>
+            <input type="text" id="message" name="message"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
     </main>
     <footer>
         <a href="https://github.com/eligazza" target="_blank"><img src="./icons/github.svg" alt="github icon" width="28" height="28"></a>
