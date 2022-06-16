@@ -1,0 +1,124 @@
+* { box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c7c3c1' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+section.imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+section img{
+    padding: 20px;
+}
+
+.boton:link, .boton:visited  {
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 55px;
+    border: solid 3px black;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 5px;
+}
+.boton:hover, .boton:active {
+    width: fit-content;
+    background-color: black;
+    color: white;}
+
+section.texto {
+    width: 600px;
+    padding: 38px;
+    font-size: large;
+    color: #767676;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+footer section a {
+    margin: 0px 10px 0px 10px ;
+}
+footer p{
+    margin-top: 15px;
+    background-color: gray;
+    padding: 6px;
+    color: white;
+    text-align: right;
+}
+
+.texto h1 {font-size: 50px;
+    font-weight: 650;
+    color: black;
+}
+
+.texto span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #767676;
+    padding: 3px 3px;
+}
+
+input#fname, input#lname, input#message, input#email{
+    width: 400px;
+    height: 20px;
+}
+
+/* section span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #767676;
+    padding: 3px 3px;}
+
+section p {text-align: left;
+    font-size: 18px;
+    color: #767676;}
+
+a.boton:link, a.boton:visited  {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 55px;
+    border: solid 3px black;
+    text-decoration: none;
+    padding: 5px 15px;}
+
+a.boton:hover, a.boton:active {
+    background-color: black;
+    color: white;}
+
+footer{
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    background-color: gray;
+    color: white;
+    padding: 8px;}
+
+.enlaces{
+    padding: 30px;
+    text-align: center;} */
