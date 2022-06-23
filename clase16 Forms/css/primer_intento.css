@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.titulo {
+    background-color: #1CD1B0;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main h1 {
+    position: sticky;
+    background-color: #00669F;
+    padding: 16px 16px 16px 25px;
+    font-size: 40px;
+    font-weight: 400;
+    box-shadow: 0px 5px 5px gray;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+main {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+main article {
+    display: inline-block;
+    position: relative;
+    background-color: #F3F3F3;
+    border: lightgray solid 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 1px gray;
+}
+
+img.corazon {
+    position: absolute;
+    left: 20px;
+    top: 20px
+}
+
+img.perfil {
+    position: absolute;
+    top: 130px;
+    left: 90px
+}
+
+img.fondo {
+    position: absolute;
+    left: -2px;
+}
+
+main article p {
+    padding: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+main article h2 {
+    margin-top: 260px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+main article button {
+    background-color: #00669F;
+    color: white;
+    padding: 15px 35px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    margin: 20px;
+}
+
+
+footer p {
+    background-color: #00669F;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+}
