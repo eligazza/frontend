@@ -5,11 +5,13 @@
 
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
+    /* background-image: url(); */
 }
 
 .flexRow {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .flexColumn {
@@ -31,7 +33,6 @@ button {
     margin: 1rem 1rem 3rem;
     padding: 0.7rem 2rem;
     align-self: center;
-    text-align: center;
 }
 
 h1 {
@@ -44,7 +45,6 @@ h1 {
 
 h2 {
     color: #232C50;
-    font-size: 1.5rem;
     font-weight: 700;
     padding: 0.5rem 4rem;
     text-align: center;
@@ -55,7 +55,7 @@ h3 {
     display: inline-block;
     font-size: 1rem;
     font-weight: 700;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     text-align: center;
 }
 
@@ -63,9 +63,17 @@ h4 {
     color: white;
     font-weight: bold;
     display: inline-block;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1rem;
     background: #F3603C;
     border-radius: 30px;
+    margin-left: 1rem;
+}
+
+h5 {
+    color: #232C50;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 0.5rem;
 }
 
 p {
@@ -76,9 +84,10 @@ p {
     line-height: 1.5rem;
 }
 
-header {
+header.flexRow {
     justify-content: space-between;
-    padding: 1rem;
+    height: 1.5rem;
+    margin: 2rem 1rem;
 }
 
 section.mainOne img {
@@ -103,6 +112,10 @@ section div.mainThree p {
     margin-bottom: 2rem;
 }
 
+div.subThree {
+    margin-bottom: 0.5rem;
+}
+
 article {
     align-items: center;
     background-color: #FAFAFA;
@@ -112,4 +125,66 @@ article img {
     margin: 1rem;
     width: 70px;
     height: 70px;
+}
+
+section.inverted {
+    background-color: #f3603c;
+}
+
+section.inverted h2 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+button.invButton {
+    background-color: white;
+    color: #F3603C;
+    box-shadow: 0px 4px 8px rgba(199, 49, 12, 0.5);
+}
+
+footer {
+    background-color: #1e1e26;
+}
+
+input {
+    border: none;
+    border-radius: 50px;
+    padding: 0.7rem 1.5rem;
+    margin: 2rem 0.5rem;
+}
+
+input.goButton {
+    background: #F3603C;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem;
+}
+
+ul{
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+li a:link {
+    font-size: small;
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer div.flexRow img {
+    width: 30px;
+    height: 30px;
+    margin: 1rem 1rem;
+}
+
+footer div {
+    text-align: center;
+    margin: 0.5rem 0rem;
+    color: white;
+    font-size: x-small;
 }
