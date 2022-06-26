@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 1rem 3rem;
+    padding: 0.7rem 2rem;
+    align-self: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header div.navMenu {
+    display: none;
+}
+
+section.mainOne img {
+    width: 100vw;
+    padding: 1rem;
+}
+
+p {
+    color: #B3B2B7;
+    padding: 0.5rem 3rem;
+    font-size: small;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+h1 {
+    color: #232C50;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: #232C50;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 4rem;
+    text-align: center;
+}
+
+h3 {
+    color: #232C50;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    text-align: center;
+}
+
+section.mainOne p {
+    font-size: medium;
+    padding: 0.5rem 2rem;
+    font-size: medium;
+}
+
+div.mainTwo p {
+    background-color: red;
+    padding: 0.5rem 3rem;
+}
+
+section div.mainThree p {
+    background-color: green;
+    padding: 0.5rem 3rem;
+}
