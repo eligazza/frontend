@@ -17,8 +17,12 @@ body {
     flex-direction: column;
 }
 
+.hide {
+    display: none;
+}
+
 button {
-    background: #F3603B;
+    background: #F3603C;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     border: none;
     border-radius: 50px;
@@ -27,28 +31,7 @@ button {
     margin: 1rem 1rem 3rem;
     padding: 0.7rem 2rem;
     align-self: center;
-}
-
-header {
-    justify-content: space-between;
-    padding: 1rem;
-}
-
-header div.navMenu {
-    display: none;
-}
-
-section.mainOne img {
-    width: 100vw;
-    padding: 1rem;
-}
-
-p {
-    color: #B3B2B7;
-    padding: 0.5rem 3rem;
-    font-size: small;
     text-align: center;
-    line-height: 1.5rem;
 }
 
 h1 {
@@ -69,10 +52,38 @@ h2 {
 
 h3 {
     color: #232C50;
+    display: inline-block;
     font-size: 1rem;
     font-weight: 700;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     text-align: center;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #F3603C;
+    border-radius: 30px;
+}
+
+p {
+    color: #B3B2B7;
+    padding: 0.5rem 3rem;
+    font-size: small;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+header {
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+section.mainOne img {
+    width: 100vw;
+    padding: 1rem;
 }
 
 section.mainOne p {
@@ -82,11 +93,23 @@ section.mainOne p {
 }
 
 div.mainTwo p {
-    background-color: red;
     padding: 0.5rem 3rem;
+    margin-bottom: 2rem;
 }
 
 section div.mainThree p {
-    background-color: green;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+article {
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+article img {
+    margin: 1rem;
+    width: 70px;
+    height: 70px;
 }
