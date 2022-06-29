@@ -181,7 +181,6 @@ section.three h2 {
     text-align: center;
 }
 section.three div {
-    background-color: #fafafa;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;   
