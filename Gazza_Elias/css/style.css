@@ -36,6 +36,14 @@ header img:nth-child(2) {
     display: none;
     padding: 0.4rem;
 }
+header img:nth-child(2):hover {
+    animation-name: rotate;
+    animation-duration: 0.4s;
+}
+@keyframes rotate {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(180deg);}
+}
 header div {
     display: flex;
     flex-direction: row;
@@ -52,9 +60,12 @@ header div nav ul {
 header div nav ul li {
     text-align: center;
 }
+header div nav ul li:hover {
+    transform: scale(1.1);
+}
 header div nav ul li a:link {
     color: rgb(35, 44, 81);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     padding: 0rem 1rem;
     text-decoration: none;
@@ -76,6 +87,7 @@ header button:hover {
     background: #f98f75;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     cursor: pointer;
+    transform: scale(1.05);
 }
 section.one {
     display: flex;
@@ -116,6 +128,7 @@ section.one div.a button:hover {
     background: #f98f75;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     cursor: pointer;
+    transform: scale(1.05);
 }
 section.one div.b img {
     width: 100%;
@@ -205,6 +218,7 @@ section.three button:hover {
     background: #f98f75;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     cursor: pointer;
+    transform: scale(1.05);
 }
 section.four{
     background-color: rgb(242, 95, 58);
@@ -231,6 +245,7 @@ section.four button:hover {
     background-color: rgb(255, 239, 234);
     box-shadow: 0px 4px 8px rgba(170, 40, 7, 0.5);
     cursor: pointer;
+    transform: scale(1.05);
 } 
 footer {
     background-color: #1e1e26;
@@ -261,6 +276,7 @@ footer div.a form input.submit {
 footer div.a form input.submit:hover {
     background: #f98f75;
     cursor: pointer;
+    transform: scale(1.05);
 }
 footer div.b {
     display: flex;
@@ -270,6 +286,9 @@ footer div.b {
 }
 footer div.b nav li {
     padding: 0.5rem;
+}
+footer div.b nav li:hover {
+    transform: scale(1.05);
 }
 footer div.b nav li a:link {
     line-height: 1.5rem;

@@ -1,27 +1,22 @@
-* {
-    box-sizing: border-box;
+* { box-sizing: border-box;
     margin: 0;
 }
-
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
     /* background-image: url(); */
 }
-
 .flexRow {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 .flexColumn {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
-
-.hide {
-    display: none;
-}
+.desktopOnly {display: none;}
+.mobileOnly {display: initial;}
 
 button {
     background: #F3603C;
@@ -30,11 +25,10 @@ button {
     border-radius: 50px;
     color: white;
     font-weight: bold;
-    margin: 1rem 1rem 3rem;
+    margin: 1rem 1rem 1rem;
     padding: 0.7rem 2rem;
     align-self: center;
 }
-
 h1 {
     color: #232C50;
     font-size: 2rem;
@@ -42,14 +36,12 @@ h1 {
     padding: 0.5rem 1rem;
     text-align: center;
 }
-
 h2 {
     color: #232C50;
     font-weight: 700;
     padding: 0.5rem 4rem;
     text-align: center;
 }
-
 h3 {
     color: #232C50;
     display: inline-block;
@@ -58,7 +50,6 @@ h3 {
     padding: 0.5rem 0.5rem;
     text-align: center;
 }
-
 h4 {
     color: white;
     font-weight: bold;
@@ -68,14 +59,12 @@ h4 {
     border-radius: 30px;
     margin-left: 1rem;
 }
-
 h5 {
     color: #232C50;
     font-size: 1rem;
     font-weight: 700;
     padding: 0.5rem 0.5rem;
 }
-
 p {
     color: #B3B2B7;
     padding: 0.5rem 3rem;
@@ -83,31 +72,43 @@ p {
     text-align: center;
     line-height: 1.5rem;
 }
-
+header>img {
+    margin-left: 1rem;
+}
+header li {
+    text-align: center;
+}
+header ul li a:link {
+    text-align: center;
+    margin: 0rem 0.5rem;
+    font-size: small;
+    text-decoration: none;
+    color: #232C50;
+}
 header.flexRow {
     justify-content: space-between;
-    height: 1.5rem;
+    height: 2rem;
     margin: 2rem 1rem;
 }
 
 section.mainOne img {
     width: 100vw;
-    padding: 1rem;
+    order: 2;
+    margin: 1rem;
 }
 
 section.mainOne p {
     font-size: medium;
-    padding: 0.5rem 2rem;
-    font-size: medium;
+    margin: 0.5rem 2rem;
 }
 
 div.mainTwo p {
-    padding: 0.5rem 3rem;
+    margin: 0.5rem 3rem;
     margin-bottom: 2rem;
 }
 
 section div.mainThree p {
-    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
     text-align: left;
     margin-bottom: 2rem;
 }
@@ -164,12 +165,12 @@ input.goButton {
     padding: 0.7rem 1.5rem;
 }
 
-ul{
+footer ul{
     text-align: left;
     padding: 1rem 2rem;
 }
 
-li a:link {
+footer li a:link {
     font-size: small;
     line-height: 1.5rem;
     text-decoration: none;
@@ -187,4 +188,43 @@ footer div {
     margin: 0.5rem 0rem;
     color: white;
     font-size: x-small;
+}
+
+@media (min-width: 700px){
+
+    .desktopOnly {
+        display: initial;
+    }
+    .mobileOnly {
+        display: none;
+    }
+    section.mainOne {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0rem 1rem;
+    }
+    section.mainOne img {
+        background-color: red;
+        width: 50vw;
+    }
+    section.mainOne div {
+        width: 45vw;
+        margin-left: 5vw;
+    }
+    section.mainOne h1 {
+        text-align: left;
+    }
+    section.mainOne p {
+        text-align: left;
+        padding: 0;
+    }
+    section.mainTwo {
+        width: 700px;
+        text-align: center;
+    }
+    section.mainFour {
+        display: flex;
+        flex-direction: row;
+    }
 }
