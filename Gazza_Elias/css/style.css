@@ -36,6 +36,14 @@ header img:nth-child(2) {
     display: none;
     padding: 0.4rem;
 }
+header img:nth-child(2) {
+    animation-name: appear;
+    animation-duration: 0.4s;
+}
+@keyframes appear {
+    0% {transform: translateX(100rem);}
+    100% {transform: translateX(0rem);}
+}
 header img:nth-child(2):hover {
     animation-name: rotate;
     animation-duration: 0.4s;
@@ -62,6 +70,11 @@ header div nav ul li {
 }
 header div nav ul li:hover {
     transform: scale(1.1);
+    animation-name: shadow;
+}
+@keyframes shadow {
+    0% {text-shadow: 0 0 0 rgba(0, 0, 0, 0);}
+    100% {text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);}
 }
 header div nav ul li a:link {
     color: rgb(35, 44, 81);
@@ -95,7 +108,7 @@ section.one {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem 0rem 6rem 0rem;
+    margin: 6rem 0rem 6rem 0rem;
 }
 section.one div.a {
     order: 2;
@@ -128,7 +141,7 @@ section.one div.a button:hover {
     background: #f98f75;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     cursor: pointer;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 section.one div.b img {
     width: 100%;
