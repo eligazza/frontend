@@ -162,7 +162,7 @@ section.two div.b article span {
     color: rgb(255, 239, 234);
     font-weight: bold;
     padding: 0.7rem 1.5rem;
-    background: #rgb(242, 95, 58);
+    background: rgb(242, 95, 58);
     border-radius: 30px;
     position: absolute;
     left: 0px;
