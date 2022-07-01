@@ -78,7 +78,7 @@ header div nav ul li a:link:hover {
     color: rgb(143, 148, 167);
 }
 header button {
-    background: #rgb(242, 95, 58);
+    background: rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -120,7 +120,7 @@ section.one div.a h6 {
     padding: 1.5rem 0rem;
 }
 section.one div.a button {
-    background: #rgb(242, 95, 58);
+    background: rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -208,7 +208,7 @@ section.three article h5 {
     font-size: 1.2rem;
 }
 section.three button {
-    background: #rgb(242, 95, 58);
+    background: rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -270,7 +270,7 @@ footer div.a form input {
     margin: 0.5rem;
 }
 footer div.a form input.submit {
-    background: #rgb(242, 95, 58);
+    background: rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
