@@ -78,7 +78,7 @@ header div nav ul li a:link:hover {
     color: rgb(143, 148, 167);
 }
 header button {
-    background: #F3603C;
+    background: #rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -88,7 +88,7 @@ header button {
     align-self: center;
 }
 header button:hover {
-    background: #f98f75;
+    background: rgb(249, 143, 117);
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     cursor: pointer;
     transform: scale(1.05);
@@ -120,7 +120,7 @@ section.one div.a h6 {
     padding: 1.5rem 0rem;
 }
 section.one div.a button {
-    background: #F3603C;
+    background: #rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -162,7 +162,7 @@ section.two div.b article span {
     color: rgb(255, 239, 234);
     font-weight: bold;
     padding: 0.7rem 1.5rem;
-    background: #F3603C;
+    background: #rgb(242, 95, 58);
     border-radius: 30px;
     position: absolute;
     left: 0px;
@@ -208,7 +208,7 @@ section.three article h5 {
     font-size: 1.2rem;
 }
 section.three button {
-    background: #F3603C;
+    background: #rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -251,7 +251,7 @@ section.four button:hover {
     transform: scale(1.05);
 } 
 footer {
-    background-color: #1e1e26;
+    background-color: rgb(30, 30, 38);
     padding: 4rem 4rem;
 }
 footer div.footer {
@@ -270,7 +270,7 @@ footer div.a form input {
     margin: 0.5rem;
 }
 footer div.a form input.submit {
-    background: #F3603C;
+    background: #rgb(242, 95, 58);
     border: none;
     border-radius: 50px;
     color: rgb(255, 239, 234);
@@ -297,7 +297,7 @@ footer div.b nav ul li a:link {
     color: rgb(255, 239, 234);
 }
 footer div.b nav ul li a:hover {
-    color: #F3603C;
+    color: rgb(242, 95, 58);
 }
 footer div.c {
     display: flex;
@@ -311,7 +311,7 @@ footer div.c div.a i {
     margin: 0.5rem;
 }
 footer div.c div.a i:hover {
-    color: #F3603C;
+    color: rgb(242, 95, 58);
 }
 footer div.c img {
     margin: 1.5rem;
