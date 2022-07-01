@@ -3,7 +3,6 @@
 }
 body {
     font-family: 'Be Vietnam Pro', sans-serif;
-    /* max-width: 1440px; */
 }
 h1,h2,h3,h4,h5 {
     color: rgb(35, 44, 81);
@@ -35,14 +34,6 @@ header img:first-child {
 header img:nth-child(2) {
     display: none;
     padding: 0.4rem;
-}
-header img:nth-child(2) {
-    animation-name: appear;
-    animation-duration: 0.4s;
-}
-@keyframes appear {
-    0% {transform: translateX(100rem);}
-    100% {transform: translateX(0rem);}
 }
 header img:nth-child(2):hover {
     animation-name: rotate;
@@ -299,16 +290,13 @@ footer div.b {
 footer div.b nav li {
     padding: 0.5rem;
 }
-footer div.b nav li:hover {
-    transform: scale(1.05);
-}
-footer div.b nav li a:link {
+footer div.b nav ul li a:link {
     line-height: 1.5rem;
     font-size: 0.8rem;
     text-decoration: none;
     color: rgb(255, 239, 234);
 }
-footer div.b nav li a:link:hover {
+footer div.b nav ul li a:hover {
     color: #F3603C;
 }
 footer div.c {
@@ -333,7 +321,6 @@ footer>p {
     margin-right: 10%;
     font-size: 0.8rem;
 }
-
 @media (max-width: 1080px) {
     h1,h2,h6 {
         text-align: center;
@@ -436,63 +423,3 @@ footer>p {
         width: 90%;
     }
 }
-
-/* 
-footer ul{
-    text-align: left;
-    padding: 1rem 2rem;
-}
-
-
-footer div.flexRow img {
-    width: 30px;
-    height: 30px;
-    margin: 1rem 1rem;
-}
-
-footer div {
-    text-align: center;
-    margin: 0.5rem 0rem;
-    color: white;
-    font-size: x-small;
-} */
-
-
-
-/*
-
-@media (max-width: 500px) {
-   
-    header img:nth-child(2) {
-        display: initial;
-    }
-    header div, header button {
-        display: none;
-    }
-    section.one div {
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    section.two {
-        flex-wrap: wrap;
-        margin: 0px;
-    }
-    section.two div:first-child {
-        text-align: center;
-        margin: 2rem 0rem;
-    }
-    section.two div:nth-child(2) {
-        margin: 0px;
-    }
-    section.two article h3 {
-        background-color: #fff0ec;
-        border-radius: 30px;
-    }
-
-    section.two article p {
-        padding: 0.5rem 0.5rem 2rem 0.5rem;
-        line-height: 1.5rem;
-    }
-
-
-} */
