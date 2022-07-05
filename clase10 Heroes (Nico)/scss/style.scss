@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+html{
+font-size: 20px;
+@media (max-width: 1250px) {
+    font-size: 18px;
+    }
+}
+
+body {
+font-family: "Roboto", sans-serif;
+}
+
+header {
+div.sup {
+    background: #d1891c;
+    padding: 2px 0px 2px 10px;
+    }
+    h1 {
+        background: #00669f;
+        padding: 10px 0 10px 20px;
+    }
+}
+
+main {
+section {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+    article {
+        position: relative;
+        background: #f3f3f3;
+        width: 300px;
+        margin: 100px 0;
+        text-align: center;
+        @media (max-width: 1250px) {
+            width: 35%;
+            }
+        @media (max-width: 730px) {
+            width: 70%;
+            }
+        &.harley {
+            @media (max-width: 730px) {
+                display: none;
+                }
+        }
+        div.bg-HeaderCard {
+            padding: 10px;
+            width: 100%;
+            height: 194px;
+            border-radius: 16px 16px 0 0;
+            text-align: left;
+            &.Batman {
+                background: url(../img/bg-Batman.png);
+                background-size: cover;
+            }
+            &.wonderWoman {
+                background: url(../img/bg-wonderWoman.png);
+                background-size: cover;
+            }
+            &.superman {
+                background: url(../img/bg-superMan.png);
+                background-size: cover;
+            }
+            &.hearley {
+            background: url(../img/bg-hearley.png);
+            background-size: cover;
+            }
+            i {
+                color: red;
+                font-size: 24px;
+            }
+        img.circlePic {
+            position: absolute;
+            left: calc(50% - (125px / 2));
+            top: calc(194px - (125px / 2));
+            width: 125px;
+            border-radius: 50%;
+        }
+        h4 {
+            margin-top: 75px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 0.8rem;
+            height: 190px;
+            text-align: left;
+            margin: 10px 10px;
+        }
+        button {
+            border: none;
+            color: white;
+            margin: 25px;
+            padding: 10px 30px;
+            background: #00669f;
+        }
+
+        }
+    }
+}
+}    
+footer {
+position: relative;
+padding: 30px 0;
+background: #00669f;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+@media (max-width: 730px) {
+    flex-direction: column;
+    justify-content: center;
+    }
+img {
+    position: absolute;
+    right: 25px;
+    width: 100px;
+    @media (max-width: 730px) {
+        margin-top: 10px;
+        position: static;
+        }
+}
+}
+  
+  
